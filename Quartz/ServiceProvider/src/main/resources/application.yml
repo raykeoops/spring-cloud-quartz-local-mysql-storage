@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eureka-service-provider
+server:
+  port: 2345
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:2333/eureka/
